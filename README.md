@@ -34,24 +34,12 @@ A lightweight and secure approach to using Aero Basic theme on modern Windows ve
 1. Run `basicthemer.exe`
 2. The program will automatically:
    - Monitor for blacklisted processes
-   - Apply Aero Basic theme when safe
-   - Restore original window states on exit
+   - Apply Aero Basic theme
+   - Restore original theme on exit
 
 ### Customizing Blacklist
 
-Edit `blacklist.txt` to add or remove processes that should stop the theming:
-```txt
-BEService.exe
-EasyAntiCheat.exe
-VALORANT.exe
-BattlEye.exe
-```
-
-### Terminating the Program
-
-- Press Ctrl+C in the console
-- Close the console window
-- The program will automatically restore all window states
+Edit `blacklist.txt` to add or remove processes that should stop theming
 
 ## Contributing
 
